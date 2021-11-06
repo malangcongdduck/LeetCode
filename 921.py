@@ -19,3 +19,4 @@ class Solution(object):
                     
         count = count + len(stack)
         return count
+ 

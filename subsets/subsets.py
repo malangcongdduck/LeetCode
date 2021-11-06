@@ -7,7 +7,7 @@ class Solution(object):
         """
         self.selected =[0]*len(nums)
         
-        for i in range(len(nums)+1):
+        for i in range(len(nums)+1): #고르지 않는 것부터 시작 -> 0
             self.temp = []
             self.explore(i, nums, 0, self.selected)
             self.result = self.result + self.temp
